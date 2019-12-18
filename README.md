@@ -26,7 +26,7 @@ Steps to reproduce:
 
 POC:-  
 
-![man_xss]()  
+![man_xss](https://github.com/ashu1665/report2/blob/master/html5_man_xss.png)    
 
 ### Automatic Test  
 Steps to reproduce:  
@@ -34,7 +34,7 @@ Steps to reproduce:
 2. Choose the 1 option as XSS  
 
 POC:-  
-![xss]()  
+![xss](https://github.com/ashu1665/report2/blob/master/html5_xss.png)    
 
 ## b) XXE(XML External Entity)
 
@@ -48,7 +48,8 @@ An XML External Entity attack is a type of attack against an application that pa
 2. Send the POST request with xxe payload  
 
 POC:-  
-![xxe]()  
+![xxe](https://github.com/ashu1665/report2/blob/master/html5_xxe_man.png)  
+
 
 ### Automatic Test  
 
@@ -57,7 +58,8 @@ Steps to Reproduce
 2. Choose the 3 option as XXE  
 
 POC:-  
-![xxe3]()  
+![xxe3](https://github.com/ashu1665/report2/blob/master/html5_xxe.png)  
+
 
 ## c) CORS(Cross-origin resource sharing)  
 #### Description:-  
@@ -72,7 +74,8 @@ Steps to reproduce
 3. Change the origin header to http://bing.com  
 
 POC:-
-![cors]()  
+![cors](https://github.com/ashu1665/report2/blob/master/html5_man_cors.png)  
+
 
 ## Automatic Test  
 
@@ -81,7 +84,8 @@ Steps to reproduce
 2. Choose the 5 option as CORS  
 
 POC:-  
-![CORS]()  
+![CORS](https://github.com/ashu1665/report2/blob/master/html5_cors.png)  
+
 
 ## d) Sensitive Data Leak  
 #### Description  
@@ -98,7 +102,8 @@ Steps to reproduce
 2. Choose the 8 option as Sensitive Data Leak   
 
 POC:-  
-![sensitive]()  
+![sensitive](https://github.com/ashu1665/report2/blob/master/html5_sensitive_data.png)  
+
 
 ## e) Missing Security Headers  
 #### Description:-  
@@ -111,7 +116,8 @@ Steps to reproduce
 1. Visit https://securityheaders.com/ and in search box enter http://testhtml5.vulnweb.com/  
 
 POC:-  
-![missing_header]()  
+![missing_header](https://github.com/ashu1665/report2/blob/master/html5_man_missing_header.png)  
+
 
 ### Automatic test  
 
@@ -120,12 +126,13 @@ Steps to reproduce
 2. Choose the 6 option as Missing security headers     
 
 POC:-  
-![missing/-header_1]()  
+![missing/-header_1](https://github.com/ashu1665/report2/blob/master/html5_sensitive_data.png)  
+
 
 ## f) Host Header Injection  
-#### Description:-  
-Most web servers are configured to pass the unrecognized host header to the first virtual host in the list. Therefore, it’s possible to send requests with arbitrary host headers to the first virtual host.
 
+#### Description:-  
+Most web servers are configured to pass the unrecognized host header to the first virtual host in the list. Therefore, it’s possible to send requests with arbitrary host headers to the first virtual host.  
 Another way to pass arbitrary Host headers is to use the X-Forwarded-Host header. In some configurations this header will rewrite the value of the Host header.  
 
 ### Manaual Test  
@@ -137,7 +144,8 @@ Steps to reproduce
 2. Choose the 9 option as Host Header Injection  
 
 POC:-
-[!host_header]()  
+[!host_header](https://github.com/ashu1665/report2/blob/master/html5_host_header.png)  
+
 
 
 
