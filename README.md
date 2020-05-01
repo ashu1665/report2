@@ -126,7 +126,7 @@ Steps to reproduce
 2. Choose the 6 option as Missing security headers     
 
 POC:-  
-![missing/-header_1](https://github.com/ashu1665/report2/blob/master/html5_sensitive_data.png)  
+![missing/-header_1](https://github.com/ashu1665/report2/blob/master/html5_missing-headers.png)  
 
 
 ## f) Host Header Injection  
